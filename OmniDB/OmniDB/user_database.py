@@ -7,7 +7,7 @@ import OmniDB_app.include.Spartacus.Utils as Utils
 import OmniDB_app.include.OmniDatabase as OmniDatabase
 
 migrations = {
-    '0.0.0': ('2.15.0', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_0.0.0_2.15.0.sql')),
+    '0.0.0': ('2.14.2', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_0.0.0_2.14.2.sql')),
     '2.4.0': ('2.4.1', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.4.0_2.4.1.sql')),
     '2.4.1': ('2.5.0', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.4.1_2.5.0.sql')),
     '2.5.0': ('2.6.0', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.5.0_2.6.0.sql')),
@@ -21,7 +21,6 @@ migrations = {
     '2.13.0': ('2.14.0', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.13.0_2.14.0.sql')),
     '2.14.0': ('2.14.1', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.14.0_2.14.1.sql')),
     '2.14.1': ('2.14.2', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.14.1_2.14.2.sql')),
-    '2.14.2': ('2.15.0', os.path.join(settings.BASE_DIR, 'OmniDB/migrations/omnidb_2.14.2_2.15.0.sql')),
 }
 
 def get_current_version(p_database):
